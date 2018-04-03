@@ -1,5 +1,5 @@
 # kb-layout
-Query xorg and show the currently used keyboard layout
+Query xorg and show the currently used keyboard layout, can be combined to i3, conky or other programs.
 
 # Install
 
