@@ -5,7 +5,7 @@ PACKAGE=kb-layout
 PROG=main.c
 
 all:
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $(PACKAGE) $(PROG)
+	$(CC) $(CFLAGS) -o $(PACKAGE) $(PROG) $(LDFLAGS)
 
 install: 
 	install -D -s -m 755 $(PACKAGE) /usr/bin/$(PACKAGE)
